@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# 環境変数・シークレット
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# AWS認証情報
+.aws/
+aws-credentials*
+credentials.json
+
+# SORACOM
+*.soracom
+soracom-credentials*
+
+# 設定ファイル（実際の値が入ったもの）
+config/keywords.yaml
+# ↑ デフォルト値のみの keywords.yaml.example はコミットOK
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# ログ
+*.log
